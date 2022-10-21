@@ -23,7 +23,6 @@ _The application allows users to find out what programming language best suits t
 ## Known Bugs
 
 * _Currently, the site only changes the results based off of answers to two questions out of the five available._
-* 
 
 ## License
 
