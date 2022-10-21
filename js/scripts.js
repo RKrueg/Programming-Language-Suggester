@@ -10,15 +10,21 @@ function languageSelector(event) {
    swift.setAttribute("class", "hidden");
 
   let singer = document.querySelector("input[name='singer']:checked").value;
-  let entertainment = document.querySelector("input[name='entertainment']:checked").value;
   let computer = document.querySelector("input[name='computer']:checked").value;
 
-  if (singer === "tayloSwift" && entertainment === "reading") {
+  
+  if (singer === "taylorSwift" && computer === "mac") {
     ruby.removeAttribute("class", "hidden");
-  } else if (singer === "taylorSwift" && computer === "mac") {
+  } else if (singer === "taylorSwift" && computer === "windows") {
     swift.removeAttribute("class", "hidden")
-  } else if (singer === "tayloSwift" && entertainment === "movies") {
+  } else if (singer === "nirvana" && computer === "mac") {
     cSharp.removeAttribute("class", "hidden");
+  } else if (singer === "nirvana" && computer === "windows") {
+    ruby.removeAttribute("class", "hidden");
+  } else if (singer === "eltonJohn" && computer === "mac") {
+    cSharp.removeAttribute("class", "hidden");
+  } else if (singer === "eltonJohn" && computer === "windows") {
+    ruby.removeAttribute("class", "hidden");
   }
 }
 
