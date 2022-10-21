@@ -1,4 +1,4 @@
-function languages(event) {
+function languageSelector(event) {
   event.preventDefault();
 
   let ruby = document.querySelector('div#ruby');
@@ -14,14 +14,14 @@ function languages(event) {
   swift.setAttribute("class", "hidden");
 
   if (singer === 'tayloSwift' && entertainment === 'reading' ) {
-    ruby.removeAttribute('class', 'hidden');
+    ruby.removeAttribute("class", "hidden");
   }
   else if (singer === "tayloSwift" && entertainment === "movies") {
-    cSharp.removeAttribute("class", "hidden")
+    cSharp.removeAttribute("class", "hidden");
   }
 }
 
-window.addEventListener("load", function () {
+window.addEventListener("load", function() {
   const form = document.getElementById("language");
-  form.addEventListener("submit", languages)
+  form.addEventListener("submit", languageSelector)
 });
