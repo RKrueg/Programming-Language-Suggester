@@ -8,10 +8,28 @@
 <body>
   <h1>Programming Language Suggester!</h1>
   <h2>What programming language best suits you?</h2>
-  <p>Fill out the questions below! Based on your answer, you will be matched with the language that best suits you!</p>
+  <p>Fill out the questions below! Based on your answer, you will be matched with Ruby, Python, or Swift!</p>
   <form>
-
-
+    <h3>Do you like dogs?</h3>
+    <label>
+      <select id="dog">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </label>
+    <h3>Do you like cats?</h3>
+    <label>
+      <select id="cats">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    <h3>Which singer best matches the type of music you listen to?</h3>
+  </label>
+    <label>
+      <input name="singer" type="radio" value="taylorSwift" checked>Taylor Swift
+      <input name="singer" type="radio" value="eltonJohn">Elton John
+      <input name="singer" type="radio" value="nirvana">Nirvana
+    </label>
   </form>
 </body>
 </html>
