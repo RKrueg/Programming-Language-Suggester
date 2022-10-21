@@ -2,6 +2,7 @@
   display: none;
 }
 
+
 h1 {
   border: solid;
   border-color: rgb(8, 139, 165);
@@ -11,27 +12,19 @@ h1 {
   text-align: center;
   padding: 2px;
   color: white;
-  ;
 }
+
 h2 {
   border: solid;
   border-color: rgb(8, 139, 165);
 }
+
 body {
   color: white;
   font-size: larger;
   border: solid;
   border-color: rgb(8, 139, 165);
   text-align: center;
-}
-.ruby {
-  font-size: 50px;
-}
-.swift {
-  font-size: 50px;
-}
-.cSharp {
-  font-size: 50px;
 }
 
 html {
