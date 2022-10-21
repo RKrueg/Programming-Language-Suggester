@@ -1,3 +1,9 @@
 .hidden{
   display: none;
 }
+
+h1 {
+  border: solid;
+  border-color: black;
+  border-width: 0px;
+}
