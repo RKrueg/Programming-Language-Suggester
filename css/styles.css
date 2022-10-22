@@ -11,16 +11,21 @@ h1 {
   margin-bottom: 10px;
   text-align: center;
   padding: 2px;
-  color: white;
+  color: rgb(218, 248, 251);
 }
 
 h2 {
   border: solid;
-  border-color: rgb(8, 139, 165);
+  border-color: rgb(218, 248, 251);
+}
+
+h3 {
+  font-size: 25px;
+  color: rgb(218, 248, 251);
 }
 
 body {
-  color: white;
+  color: rgb(218, 248, 251);
   font-size: larger;
   border: solid;
   border-color: rgb(8, 139, 165);
